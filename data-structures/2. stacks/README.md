@@ -31,3 +31,7 @@ Which of these data structures are associated with problems that can be resolved
 - `peek()`: Returnts the item at the top of the stack (does not remove it)
 - `isEmpty()`: Returns true if the stack is empty
 - `getLength()` Returns the number of items in the stack. 
+
+What are real-world use-cases for a Stack data structure?
+
+Stacks are used when you want to work with data Last in First Out (LIFO or FILO). They're used in processor architecture, undo logic, and depth first searches and traversals.

@@ -88,3 +88,15 @@ https://leetcode.com/explore/interview/card/bloomberg/69/linked-list/431/discuss
 ***
 https://www.educative.io/edpresso/how-to-reverse-a-linked-list-in-python
 
+What are real-world use-cases for a Linked List data structure?
+
+Linked Lists can be used to create queues and stacks. They're also a key part of resolving collisions in hash tables, which we'll learn more about in a few weeks.
+
+How are Linked-Lists different than an Array?
+
+Both linked lists and arrays are linear data structures. An array is the most space efficient type of storage possible and has great time complexity for most operations. Logically, the array is linear in structure, and it is stored in a linear segment of memory. It is accessed by starting at the memory address of the pointer and counting forward the number of bits resulting from the index times the size of the data type. One weakness is the time complexity of operations that take data out of anywhere but the end and another is changing the size of the array.
+
+A linked list is not as efficient for storage because each element requires a pointer to the next, and in a doubly-linked list, previous element. It is also more difficult to access the elements. Because there's no index, you must loop through the list to search for the item you want, which is O(n). However, a linked list does not require a contiguous block of memory. It has 0(1) to remove or add items anywhere in the list.
+
+Generally speaking, it's usually best to use an array unless you expect to frequently add and remove items from anywhere other than the end. In that case, it's better to use a linked list.
+
