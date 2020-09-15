@@ -8,6 +8,7 @@
 
 
 ## What are Data Structures? 
+- A data structure is a way to organize and manipulate data
 - A data structure is an organization of data such that it can be accessed and modified in a particular manner. 
 
 ## What is Big O

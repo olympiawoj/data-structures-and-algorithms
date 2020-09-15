@@ -1,4 +1,5 @@
-- Hash tables are key value lok ups
+
+- Hash tables are key value look ups
 - Dictionaries
 
 A hash table (also called a hash, hash map, unordered map or dictionary) is a data structure that pairs keys to values. Its a technique to convert a range of key values into a range of indexes of an array. Its used to implement an associative array, a structure that can map keys to values. A Hash Table uses a hash function to compute an index into an array of buckets or slots, from which the desired value can be found. From Wikipedia.
